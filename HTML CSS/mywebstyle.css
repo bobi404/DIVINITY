@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: #ddd;
+    background-image: ;
+}
+.container{
+    background-color: #fff;
+    width: 900px;
+    margin: auto;
+    justify-content: center;
+}
+.header{
+    padding: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid black;
+}
+.judul{
+    font-size: 45px;
+}
+.header ul{
+    list-style-type: none;
+}
+.header ul li{
+    float: left;
+    display: flex;
+    margin: 5px 20px 0 0;
+}
+.header ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.header ul li a:hover{
+    background-color: black;
+    padding: 2px;
+    color: #fff;
+}
